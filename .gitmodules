@@ -1,0 +1,126 @@
+[submodule "Minetest-WorldEdit"]
+	path = Minetest-WorldEdit
+	url = https://github.com/Uberi/Minetest-WorldEdit
+[submodule "adv_spawning"]
+	path = adv_spawning
+	url = https://github.com/sapier/adv_spawning
+[submodule "wield3d"]
+	path = wield3d
+	url = https://github.com/stujones11/wield3d.git
+[submodule "walking_light"]
+	path = walking_light
+	url = https://github.com/myoung008/walking_light.git
+[submodule "unifieddyes"]
+	path = unifieddyes
+	url = https://github.com/minetest-mods/unifieddyes
+[submodule "unifiedbricks"]
+	path = unifiedbricks
+	url = https://github.com/minetest-mods/unifiedbricks
+[submodule "unified_inventory"]
+	path = unified_inventory
+	url = https://github.com/minetest-technic/unified_inventory
+[submodule "travelnet"]
+	path = travelnet
+	url = https://github.com/Sokomine/travelnet
+[submodule "technic"]
+	path = technic
+	url = https://github.com/minetest-mods/technic
+[submodule "signs_lib"]
+	path = signs_lib
+	url = https://github.com/minetest-mods/signs_lib
+[submodule "sea"]
+	path = sea
+	url = https://bitbucket.org/minetest_gamers/minetest-mod-sea.git
+[submodule "scaffolding"]
+	path = scaffolding
+	url = https://Infinatum@bitbucket.org/Infinatum/scaffolding.git
+[submodule "quests"]
+	path = quests
+	url = https://github.com/TeTpaAka/quests
+[submodule "plantlife_modpack"]
+	path = plantlife_modpack
+	url = https://github.com/minetest-mods/plantlife_modpack
+[submodule "pipeworks"]
+	path = pipeworks
+	url = https://github.com/minetest-mods/pipeworks
+[submodule "mymonths"]
+	path = mymonths
+	url = https://github.com/minetest-mods/mymonths
+[submodule "moretrees"]
+	path = moretrees
+	url = https://github.com/minetest-mods/moretrees
+[submodule "moreores"]
+	path = moreores
+	url = https://github.com/minetest-mods/moreores
+[submodule "moreblocks"]
+	path = moreblocks
+	url = https://github.com/minetest-mods/moreblocks
+[submodule "mobf_trader"]
+	path = mobf_trader
+	url = https://github.com/Sokomine/mobf_trader
+[submodule "mobf_core"]
+	path = mobf_core
+	url = https://github.com/sapier/mobf_core
+[submodule "mg_villages"]
+	path = mg_villages
+	url = https://github.com/Sokomine/mg_villages
+[submodule "mg"]
+	path = mg
+	url = https://github.com/minetest-mods/mg
+[submodule "mesecons"]
+	path = mesecons
+	url = https://github.com/Jeija/minetest-mod-mesecons
+[submodule "mapfix"]
+	path = mapfix
+	url = https://github.com/minetest-mods/mapfix
+[submodule "lantern"]
+	path = lantern
+	url = https://github.com/RHRhino/lantern
+[submodule "item_tweaks"]
+	path = item_tweaks
+	url = https://github.com/minetest-technic/item_tweaks
+[submodule "homedecor"]
+	path = homedecor
+	url = https://github.com/minetest-mods/homedecor_modpack
+[submodule "handle_schematics"]
+	path = handle_schematics
+	url = https://github.com/Sokomine/handle_schematics
+[submodule "gloopblocks"]
+	path = gloopblocks
+	url = https://github.com/VanessaE/gloopblocks
+[submodule "fun_caves"]
+	path = fun_caves
+	url = https://github.com/duane-r/fun_caves
+[submodule "food"]
+	path = food
+	url = https://github.com/rubenwardy/food.git
+[submodule "farming"]
+	path = farming
+	url = https://github.com/tenplus1/farming.git
+[submodule "ethereal"]
+	path = ethereal
+	url = https://github.com/tenplus1/ethereal
+[submodule "currency"]
+	path = currency
+	url = https://github.com/minetest-mods/currency
+[submodule "cottages"]
+	path = cottages
+	url = https://github.com/Sokomine/cottages
+[submodule "colormachine"]
+	path = colormachine
+	url = https://github.com/Sokomine/colormachine
+[submodule "castle"]
+	path = castle
+	url = https://github.com/minetest-mods/castle
+[submodule "biome_lib"]
+	path = biome_lib
+	url = https://github.com/minetest-mods/biome_lib
+[submodule "animals_modpack"]
+	path = animals_modpack
+	url = https://github.com/sapier/animals_modpack
+[submodule "animalmaterials"]
+	path = animalmaterials
+	url = https://github.com/sapier/animalmaterials
+[submodule "airtanks"]
+	path = airtanks
+	url = https://github.com/minetest-mods/airtanks
