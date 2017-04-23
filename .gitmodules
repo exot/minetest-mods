@@ -75,7 +75,7 @@
 	url = https://github.com/minetest-mods/mapfix
 [submodule "lantern"]
 	path = lantern
-	url = https://github.com/RHRhino/lantern
+	url = https://github.com/exot/minetest-lantern
 [submodule "item_tweaks"]
 	path = item_tweaks
 	url = https://github.com/minetest-technic/item_tweaks
