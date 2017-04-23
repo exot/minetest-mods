@@ -117,7 +117,7 @@
 	url = https://github.com/minetest-mods/biome_lib
 [submodule "animals_modpack"]
 	path = animals_modpack
-	url = https://github.com/sapier/animals_modpack
+	url = https://github.com/exot/animals_modpack
 [submodule "animalmaterials"]
 	path = animalmaterials
 	url = https://github.com/sapier/animalmaterials
