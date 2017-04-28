@@ -130,3 +130,9 @@
 [submodule "mobs_redo"]
 	path = mobs_redo
 	url = https://github.com/tenplus1/mobs_redo
+[submodule "mydoors"]
+	path = mydoors
+	url = https://github.com/minetest-mods/mydoors
+[submodule "bakedclay"]
+	path = bakedclay
+	url = https://github.com/tenplus1/bakedclay
