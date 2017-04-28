@@ -142,3 +142,6 @@
 [submodule "display_modpack"]
 	path = display_modpack
 	url = https://github.com/pyrollo/display_modpack
+[submodule "minetest-u_skinsdb"]
+	path = minetest-u_skinsdb
+	url = https://github.com/dmonty2/minetest-u_skinsdb
