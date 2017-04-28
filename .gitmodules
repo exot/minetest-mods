@@ -139,3 +139,6 @@
 [submodule "darkage"]
 	path = darkage
 	url = https://github.com/adrido/darkage/
+[submodule "display_modpack"]
+	path = display_modpack
+	url = https://github.com/pyrollo/display_modpack
