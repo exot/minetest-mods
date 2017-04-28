@@ -136,3 +136,6 @@
 [submodule "bakedclay"]
 	path = bakedclay
 	url = https://github.com/tenplus1/bakedclay
+[submodule "darkage"]
+	path = darkage
+	url = https://github.com/adrido/darkage/
