@@ -1,0 +1,28 @@
+--- /dev/null	2017-10-28 14:20:19.895444430 +0200
++++ a/mymonths/settings.txt	2017-02-05 10:16:24.810761697 +0100
+@@ -0,0 +1,25 @@
++--Turn damage on or off. This will make storms and hail cause damage
++
++mymonths.damage = false
++
++------------------------------------------------------------------------
++--You can turn weather off 
++
++mymonths.use_weather = false
++
++------------------------------------------------------------------------
++--Leaves change color in the fall.
++
++mymonths.leaves = true
++
++------------------------------------------------------------------------
++--Have snow accumulate on the ground
++
++mymonths.snow_on_ground = false
++
++------------------------------------------------------------------------
++--Puddles appear when raining
++
++mymonths.use_puddles = false
++
++mymonths.flowers_die = false

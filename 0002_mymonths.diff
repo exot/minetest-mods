@@ -1,0 +1,28 @@
+diff --git a/mymonths/init.lua b/mymonths/init.lua
+index 2540d01..d0554d3 100644
+--- a/mymonths/init.lua
++++ b/mymonths/init.lua
+@@ -5,19 +5,19 @@ mymonths = {}
+ mymonths.damage = false
+ 
+ --You can turn weather off; this will put snow and puddles off too
+-mymonths.use_weather = true
++mymonths.use_weather = false
+ 
+ --Leaves change color in the fall.
+ mymonths.leaves = true
+ 
+ --Have snow accumulate on the ground
+-mymonths.snow_on_ground = true
++mymonths.snow_on_ground = false
+ 
+ --Puddles appear when raining
+-mymonths.use_puddles = true
++mymonths.use_puddles = false
+ 
+ --Flowers die in winter, grown in spring
+-mymonths.flowers_die = true
++mymonths.flowers_die = false
+ 
+ --Grass changes color in fall, and spring
+ mymonths.grass_change = true
