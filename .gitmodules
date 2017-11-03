@@ -97,9 +97,6 @@
 [submodule "farming"]
 	path = farming
 	url = https://github.com/tenplus1/farming.git
-[submodule "ethereal"]
-	path = ethereal
-	url = https://github.com/tenplus1/ethereal
 [submodule "currency"]
 	path = currency
 	url = https://github.com/minetest-mods/currency
