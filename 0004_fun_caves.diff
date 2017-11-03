@@ -1,18 +1,23 @@
 diff --git a/fun_caves/init.lua b/fun_caves/init.lua
-index df93ef2..eee2f0d 100644
+index df93ef2..1fe4531 100644
 --- a/fun_caves/init.lua
 +++ b/fun_caves/init.lua
-@@ -151,9 +151,9 @@ end
+@@ -149,11 +149,13 @@ function fun_caves_mod.clone_node(name)
+ end
  
- minetest.register_on_mapgen_init(function(mgparams)
- 	--minetest.set_mapgen_setting('mg_flags', "nocaves, nodungeons", true)
+ 
+-minetest.register_on_mapgen_init(function(mgparams)
+-	--minetest.set_mapgen_setting('mg_flags', "nocaves, nodungeons", true)
 -	minetest.set_mapgen_setting('mg_flags', "nocaves", true)
-+	minetest.set_mapgen_setting('mg_flags', "nocaves", false)
- end)
--
--
+-end)
++--minetest.register_on_mapgen_init(function(mgparams)
++--	--minetest.set_mapgen_setting('mg_flags', "nocaves, nodungeons", true)
++--	minetest.set_mapgen_setting('mg_flags', "nocaves", true)
++--end)
+ 
+ 
 -dofile(fun_caves_mod.path .. "/mapgen.lua")
-+-- 
-+-- 
 +-- dofile(fun_caves_mod.path .. "/mapgen.lua")
++dofile(fun_caves_mod.path .. "/nodes.lua")
++dofile(fun_caves_mod.path .. "/fungal_tree.lua")
  dofile(fun_caves_mod.path .. "/abms.lua")
