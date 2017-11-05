@@ -142,3 +142,6 @@
 [submodule "animals_modpack"]
 	path = animals_modpack
 	url = https://github.com/sapier/animals_modpack
+[submodule "sneak_glitch"]
+	path = sneak_glitch
+	url = https://github.com/SmallJoker/sneak_glitch
