@@ -40,4 +40,25 @@ minetest.register_craft({
   recipe = {"darkage:chalk_powder", "darkage:chalk_powder"}
 })
 
+minetest.register_craft({
+  type = "shapeless",
+  output = "homedecor:oil_extract",
+  recipe = {"flowers:sunflower", "flowers:sunflower"}
+})
+
+colors_from_plants = {
+   ["dye:yellow"] = {"flowers:sunflower"},
+   ["dye:orange"] = {"farming:pumpkin_slice"},
+   ["dye:blue"]   = {"farming:blueberry"},
+   ["dye:red"]    = {"farming:tomato"}
+}
+
+for color,ingredients in pairs(colors_from_plants) do
+   minetest.register_craft({
+      type = "shapeless",
+      output = color,
+      recipe = ingredients
+   })
+end
+
 print("[TomTopia] Loading specific definitions for TomTopia … done.")
