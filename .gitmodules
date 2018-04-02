@@ -7,9 +7,6 @@
 [submodule "wield3d"]
 	path = wield3d
 	url = https://github.com/stujones11/wield3d.git
-[submodule "walking_light"]
-	path = walking_light
-	url = https://github.com/myoung008/walking_light.git
 [submodule "unifieddyes"]
 	path = unifieddyes
 	url = https://github.com/minetest-mods/unifieddyes
@@ -145,3 +142,6 @@
 [submodule "sneak_glitch"]
 	path = sneak_glitch
 	url = https://github.com/SmallJoker/sneak_glitch
+[submodule "wielded_light"]
+	path = wielded_light
+	url = https://github.com/bell07/minetest-wielded_light
