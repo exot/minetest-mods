@@ -1,9 +1,6 @@
 [submodule "Minetest-WorldEdit"]
 	path = Minetest-WorldEdit
 	url = https://github.com/Uberi/Minetest-WorldEdit
-[submodule "adv_spawning"]
-	path = adv_spawning
-	url = https://github.com/sapier/adv_spawning
 [submodule "wield3d"]
 	path = wield3d
 	url = https://github.com/stujones11/wield3d.git
@@ -15,7 +12,7 @@
 	url = https://github.com/minetest-mods/unifiedbricks
 [submodule "unified_inventory"]
 	path = unified_inventory
-	url = https://github.com/minetest-technic/unified_inventory
+	url = https://github.com/minetest-mods/unified_inventory
 [submodule "travelnet"]
 	path = travelnet
 	url = https://github.com/Sokomine/travelnet
@@ -30,7 +27,7 @@
 	url = https://bitbucket.org/minetest_gamers/minetest-mod-sea.git
 [submodule "scaffolding"]
 	path = scaffolding
-	url = https://Infinatum@bitbucket.org/Infinatum/scaffolding.git
+	url = https://bitbucket.org/Infinatum/scaffolding.git
 [submodule "quests"]
 	path = quests
 	url = https://github.com/TeTpaAka/quests
@@ -55,9 +52,6 @@
 [submodule "mobf_trader"]
 	path = mobf_trader
 	url = https://github.com/Sokomine/mobf_trader
-[submodule "mobf_core"]
-	path = mobf_core
-	url = https://github.com/sapier/mobf_core
 [submodule "mg_villages"]
 	path = mg_villages
 	url = https://github.com/Sokomine/mg_villages
@@ -84,7 +78,7 @@
 	url = https://github.com/Sokomine/handle_schematics
 [submodule "gloopblocks"]
 	path = gloopblocks
-	url = https://github.com/VanessaE/gloopblocks
+	url = https://github.com/minetest-mods/gloopblocks
 [submodule "fun_caves"]
 	path = fun_caves
 	url = https://github.com/duane-r/fun_caves
@@ -93,7 +87,7 @@
 	url = https://github.com/rubenwardy/food.git
 [submodule "farming"]
 	path = farming
-	url = https://github.com/tenplus1/farming.git
+	url = https://notabug.org/TenPlus1/Farming
 [submodule "currency"]
 	path = currency
 	url = https://github.com/minetest-mods/currency
@@ -109,24 +103,21 @@
 [submodule "biome_lib"]
 	path = biome_lib
 	url = https://github.com/minetest-mods/biome_lib
-[submodule "animalmaterials"]
-	path = animalmaterials
-	url = https://github.com/sapier/animalmaterials
 [submodule "airtanks"]
 	path = airtanks
 	url = https://github.com/minetest-mods/airtanks
 [submodule "mobs_animal"]
 	path = mobs_animal
-	url = https://github.com/tenplus1/mobs_animal
+	url = https://notabug.org/TenPlus1/mobs_animal
 [submodule "mobs_redo"]
 	path = mobs_redo
-	url = https://github.com/tenplus1/mobs_redo
+	url = https://notabug.org/TenPlus1/mobs_redo
 [submodule "mydoors"]
 	path = mydoors
 	url = https://github.com/minetest-mods/mydoors
 [submodule "bakedclay"]
 	path = bakedclay
-	url = https://github.com/tenplus1/bakedclay
+	url = https://notabug.org/TenPlus1/bakedclay
 [submodule "darkage"]
 	path = darkage
 	url = https://github.com/adrido/darkage/
@@ -136,9 +127,6 @@
 [submodule "minetest-u_skinsdb"]
 	path = minetest-u_skinsdb
 	url = https://github.com/dmonty2/minetest-u_skinsdb
-[submodule "animals_modpack"]
-	path = animals_modpack
-	url = https://github.com/sapier/animals_modpack
 [submodule "sneak_glitch"]
 	path = sneak_glitch
 	url = https://github.com/SmallJoker/sneak_glitch
