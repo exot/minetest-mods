@@ -1,3 +1,4 @@
 mg-villages-customization.diff
 create-mymonths-settings-file.diff
-disable-funcaves-cave-generation.diff
+fix-funcaves
+disable-funcaves-cave-generation

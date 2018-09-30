@@ -1,0 +1,107 @@
+--- a/fun_caves/init.lua
++++ b/fun_caves/init.lua
+@@ -288,7 +288,7 @@ else
+ 
+   fun_caves.construct_nodes = {}
+   function fun_caves.add_construct(node_name)
+-    fun_caves.construct_nodes[node[node_name]] = true
++    fun_caves.construct_nodes[fun_caves.node[node_name]] = true
+   end
+ 
+   dofile(fun_caves.path .. "/mapgen.lua")
+@@ -313,49 +313,49 @@ end
+ --end)
+ 
+ 
+-do
+-  local ignore_ore = {}
+-  ignore_ore['default:clay'] = true
+-  ignore_ore['default:gravel'] = true
+-  ignore_ore['default:sand'] = true
+-  ignore_ore['default:silver_sand'] = true
+-  ignore_ore['default:dirt'] = true
+-
+-  local new_reg = {}
+-  for n, d in pairs(minetest.registered_ores) do
+-    for non = 1, 1 do
+-      if ignore_ore[d.ore] then
+-        break
+-      end
+-
+-      if type(d.wherein) == 'table' then
+-        local stone
+-        for _, n in pairs(d.wherein) do
+-          if n == 'default:stone' then
+-            stone = true
+-            break
+-          end
+-        end
+-        if not stone then
+-          break
+-        end
+-      elseif d.wherein ~= 'default:stone' then
+-        break
+-      end
+-
+-      local def = table.copy(d)
+-      def.wherein = {'fun_caves:basalt', 'fun_caves:granite', 'fun_caves:stone_with_moss', 'fun_caves:stone_with_algae', 'fun_caves:stone_with_lichen', 'fun_caves:stone_with_salt'}
+-      new_reg[#new_reg+1] = def
+-      local hot_def = table.copy(d)
+-      hot_def.wherein = 'fun_caves:hot_cobble'
+-      hot_def.clust_scarcity = math.floor(hot_def.clust_scarcity / 2)
+-      new_reg[#new_reg+1] = hot_def
+-    end
+-  end
+-
+-  for _, def in ipairs(new_reg) do
+-    minetest.register_ore(def)
+-    --print('Fun Caves: registering '..def.ore..' in special stones')
+-    --print(dump(def))
+-  end
+-end
++-- do
++--   local ignore_ore = {}
++--   ignore_ore['default:clay'] = true
++--   ignore_ore['default:gravel'] = true
++--   ignore_ore['default:sand'] = true
++--   ignore_ore['default:silver_sand'] = true
++--   ignore_ore['default:dirt'] = true
++-- 
++--   local new_reg = {}
++--   for n, d in pairs(minetest.registered_ores) do
++--     for non = 1, 1 do
++--       if ignore_ore[d.ore] then
++--         break
++--       end
++-- 
++--       if type(d.wherein) == 'table' then
++--         local stone
++--         for _, n in pairs(d.wherein) do
++--           if n == 'default:stone' then
++--             stone = true
++--             break
++--           end
++--         end
++--         if not stone then
++--           break
++--         end
++--       elseif d.wherein ~= 'default:stone' then
++--         break
++--       end
++-- 
++--       local def = table.copy(d)
++--       def.wherein = {'fun_caves:basalt', 'fun_caves:granite', 'fun_caves:stone_with_moss', 'fun_caves:stone_with_algae', 'fun_caves:stone_with_lichen', 'fun_caves:stone_with_salt'}
++--       new_reg[#new_reg+1] = def
++--       local hot_def = table.copy(d)
++--       hot_def.wherein = 'fun_caves:hot_cobble'
++--       hot_def.clust_scarcity = 0
++--       new_reg[#new_reg+1] = hot_def
++--     end
++--   end
++-- 
++--   for _, def in ipairs(new_reg) do
++--     minetest.register_ore(def)
++--     --print('Fun Caves: registering '..def.ore..' in special stones')
++--     --print(dump(def))
++--   end
++-- end
