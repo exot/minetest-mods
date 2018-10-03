@@ -1,7 +1,5 @@
-Index: mods/mg_villages/config.lua
-===================================================================
---- mods.orig/mg_villages/config.lua
-+++ mods/mg_villages/config.lua
+--- a/mg_villages/config.lua
++++ b/mg_villages/config.lua
 @@ -2,11 +2,11 @@
  -- configuration values which you can adjust according to your liking
  -----------------------------------------------------------------------------
@@ -39,3 +37,17 @@ Index: mods/mg_villages/config.lua
  
  	-- building types which usually have inhabitants (and thus allow the player
  	-- who bought the building to modifiy the entire village area minus other
+--- a/mg_villages/init.lua
++++ b/mg_villages/init.lua
+@@ -80,9 +80,9 @@ dofile(mg_villages.modpath.."/map_of_wor
+ dofile(mg_villages.modpath.."/terrain_blend.lua")
+ -- the interface for the mapgen;
+ -- also takes care of spawning the player
+-dofile(mg_villages.modpath.."/mapgen.lua")
++--dofile(mg_villages.modpath.."/mapgen.lua")
+ 
+-dofile(mg_villages.modpath.."/spawn_player.lua")
++--dofile(mg_villages.modpath.."/spawn_player.lua")
+ 
+ -- reconstruct the connection of the roads inside a village
+ dofile(mg_villages.modpath.."/roads.lua")
