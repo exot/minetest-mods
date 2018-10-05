@@ -133,3 +133,6 @@
 [submodule "wielded_light"]
 	path = wielded_light
 	url = https://github.com/bell07/minetest-wielded_light
+[submodule "mob_horse"]
+	path = mob_horse
+	url = https://notabug.org/TenPlus1/mob_horse
