@@ -61,4 +61,10 @@ for color,ingredients in pairs(colors_from_plants) do
    })
 end
 
+minetest.register_on_generated(function(minp, maxp, seed)
+  local debug = "New block generated with minp="..(minetest.pos_to_string(minp))..", maxp="..(minetest.pos_to_string(maxp))..", seed="..seed
+  print(debug)
+  minetest.chat_send_all(debug)
+end)
+
 print("[TomTopia] Loading specific definitions for TomTopia … done.")
