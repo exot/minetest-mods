@@ -145,3 +145,9 @@
 [submodule "mobs_water"]
 	path = mobs_water
 	url = https://github.com/blert2112/mobs_water
+[submodule "mobs_npc"]
+	path = mobs_npc
+	url = https://notabug.org/TenPlus1/mobs_npc
+[submodule "playeranim"]
+	path = playeranim
+	url = https://github.com/minetest-mods/playeranim
