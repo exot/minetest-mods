@@ -139,3 +139,6 @@
 [submodule "intllib"]
 	path = intllib
 	url = https://github.com/minetest-mods/intllib
+[submodule "lucky_block"]
+	path = lucky_block
+	url = https://notabug.org/TenPlus1/lucky_block
