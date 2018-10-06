@@ -142,3 +142,6 @@
 [submodule "lucky_block"]
 	path = lucky_block
 	url = https://notabug.org/TenPlus1/lucky_block
+[submodule "mobs_water"]
+	path = mobs_water
+	url = https://github.com/blert2112/mobs_water
