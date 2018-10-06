@@ -136,3 +136,6 @@
 [submodule "mob_horse"]
 	path = mob_horse
 	url = https://notabug.org/TenPlus1/mob_horse
+[submodule "intllib"]
+	path = intllib
+	url = https://github.com/minetest-mods/intllib
