@@ -3,3 +3,4 @@ create-mymonths-settings-file
 fix-funcaves
 disable-funcaves-cave-generation
 mobf-trader-no-animals
+fix-turtle-rightclick
