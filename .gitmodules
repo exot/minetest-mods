@@ -157,3 +157,6 @@
 [submodule "bonemeal"]
 	path = bonemeal
 	url = https://notabug.org/TenPlus1/bonemeal
+[submodule "stairsplus"]
+	path = stairsplus
+	url = https://github.com/CasimirKaPazi/stairsplus
