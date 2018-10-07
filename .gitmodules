@@ -151,3 +151,9 @@
 [submodule "playeranim"]
 	path = playeranim
 	url = https://github.com/minetest-mods/playeranim
+[submodule "areas"]
+	path = areas
+	url = https://github.com/ShadowNinja/areas
+[submodule "bonemeal"]
+	path = bonemeal
+	url = https://notabug.org/TenPlus1/bonemeal
