@@ -37,3 +37,6 @@
 [submodule "columnia"]
 	path = columnia
 	url = https://github.com/Glunggi/columnia
+[submodule "mobs_redo"]
+	path = mobs_redo
+	url = https://notabug.org/tenplus1/mobs_redo

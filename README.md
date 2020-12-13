@@ -18,7 +18,6 @@ sudo apt install                    \
      minetest-mod-infinite-chest    \
      minetest-mod-intllib           \
      minetest-mod-mesecons          \
-     minetest-mod-mobs-redo         \
      minetest-mod-moreblocks        \
      minetest-mod-moreores          \
      minetest-mod-torches           \
