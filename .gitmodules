@@ -34,3 +34,6 @@
 [submodule "bonemeal"]
 	path = bonemeal
 	url = https://notabug.org/TenPlus1/bonemeal
+[submodule "columnia"]
+	path = columnia
+	url = https://github.com/Glunggi/columnia
