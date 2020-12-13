@@ -1,162 +1,36 @@
-[submodule "Minetest-WorldEdit"]
-	path = Minetest-WorldEdit
-	url = https://github.com/Uberi/Minetest-WorldEdit
-[submodule "wield3d"]
-	path = wield3d
-	url = https://github.com/stujones11/wield3d.git
-[submodule "unifieddyes"]
-	path = unifieddyes
-	url = https://github.com/minetest-mods/unifieddyes
-[submodule "unifiedbricks"]
-	path = unifiedbricks
-	url = https://github.com/minetest-mods/unifiedbricks
-[submodule "unified_inventory"]
-	path = unified_inventory
-	url = https://github.com/minetest-mods/unified_inventory
 [submodule "travelnet"]
 	path = travelnet
 	url = https://github.com/Sokomine/travelnet
-[submodule "technic"]
-	path = technic
-	url = https://github.com/minetest-mods/technic
-[submodule "signs_lib"]
-	path = signs_lib
-	url = https://github.com/minetest-mods/signs_lib
-[submodule "sea"]
-	path = sea
-	url = https://bitbucket.org/minetest_gamers/minetest-mod-sea.git
 [submodule "scaffolding"]
 	path = scaffolding
 	url = https://bitbucket.org/Infinatum/scaffolding.git
-[submodule "quests"]
-	path = quests
-	url = https://github.com/TeTpaAka/quests
 [submodule "plantlife_modpack"]
 	path = plantlife_modpack
 	url = https://github.com/minetest-mods/plantlife_modpack
-[submodule "pipeworks"]
-	path = pipeworks
-	url = https://github.com/minetest-mods/pipeworks
-[submodule "mymonths"]
-	path = mymonths
-	url = https://github.com/minetest-mods/mymonths
 [submodule "moretrees"]
 	path = moretrees
 	url = https://github.com/minetest-mods/moretrees
-[submodule "moreores"]
-	path = moreores
-	url = https://github.com/minetest-mods/moreores
-[submodule "moreblocks"]
-	path = moreblocks
-	url = https://github.com/minetest-mods/moreblocks
-[submodule "mobf_trader"]
-	path = mobf_trader
-	url = https://github.com/Sokomine/mobf_trader
-[submodule "mg_villages"]
-	path = mg_villages
-	url = https://github.com/Sokomine/mg_villages
-[submodule "mg"]
-	path = mg
-	url = https://github.com/minetest-mods/mg
-[submodule "mesecons"]
-	path = mesecons
-	url = https://github.com/Jeija/minetest-mod-mesecons
-[submodule "mapfix"]
-	path = mapfix
-	url = https://github.com/minetest-mods/mapfix
-[submodule "lantern"]
-	path = lantern
-	url = https://github.com/exot/minetest-lantern
-[submodule "item_tweaks"]
-	path = item_tweaks
-	url = https://github.com/minetest-technic/item_tweaks
-[submodule "homedecor"]
-	path = homedecor
-	url = https://github.com/minetest-mods/homedecor_modpack
-[submodule "handle_schematics"]
-	path = handle_schematics
-	url = https://github.com/Sokomine/handle_schematics
-[submodule "gloopblocks"]
-	path = gloopblocks
-	url = https://github.com/minetest-mods/gloopblocks
-[submodule "fun_caves"]
-	path = fun_caves
-	url = https://github.com/duane-r/fun_caves
 [submodule "food"]
 	path = food
 	url = https://github.com/rubenwardy/food.git
 [submodule "farming"]
 	path = farming
 	url = https://notabug.org/TenPlus1/Farming
-[submodule "currency"]
-	path = currency
-	url = https://github.com/minetest-mods/currency
-[submodule "cottages"]
-	path = cottages
-	url = https://github.com/Sokomine/cottages
-[submodule "colormachine"]
-	path = colormachine
-	url = https://github.com/Sokomine/colormachine
-[submodule "castle"]
-	path = castle
-	url = https://github.com/minetest-mods/castle
 [submodule "biome_lib"]
 	path = biome_lib
 	url = https://github.com/minetest-mods/biome_lib
-[submodule "airtanks"]
-	path = airtanks
-	url = https://github.com/minetest-mods/airtanks
-[submodule "mobs_animal"]
-	path = mobs_animal
-	url = https://notabug.org/TenPlus1/mobs_animal
-[submodule "mobs_redo"]
-	path = mobs_redo
-	url = https://notabug.org/TenPlus1/mobs_redo
-[submodule "mydoors"]
-	path = mydoors
-	url = https://github.com/minetest-mods/mydoors
 [submodule "bakedclay"]
 	path = bakedclay
 	url = https://notabug.org/TenPlus1/bakedclay
 [submodule "darkage"]
 	path = darkage
 	url = https://github.com/adrido/darkage/
-[submodule "display_modpack"]
-	path = display_modpack
-	url = https://github.com/pyrollo/display_modpack
 [submodule "minetest-u_skinsdb"]
 	path = minetest-u_skinsdb
 	url = https://github.com/dmonty2/minetest-u_skinsdb
-[submodule "sneak_glitch"]
-	path = sneak_glitch
-	url = https://github.com/SmallJoker/sneak_glitch
-[submodule "wielded_light"]
-	path = wielded_light
-	url = https://github.com/bell07/minetest-wielded_light
 [submodule "mob_horse"]
 	path = mob_horse
 	url = https://notabug.org/TenPlus1/mob_horse
-[submodule "intllib"]
-	path = intllib
-	url = https://github.com/minetest-mods/intllib
-[submodule "lucky_block"]
-	path = lucky_block
-	url = https://notabug.org/TenPlus1/lucky_block
-[submodule "mobs_water"]
-	path = mobs_water
-	url = https://github.com/blert2112/mobs_water
-[submodule "mobs_npc"]
-	path = mobs_npc
-	url = https://notabug.org/TenPlus1/mobs_npc
-[submodule "playeranim"]
-	path = playeranim
-	url = https://github.com/minetest-mods/playeranim
-[submodule "areas"]
-	path = areas
-	url = https://github.com/ShadowNinja/areas
 [submodule "bonemeal"]
 	path = bonemeal
 	url = https://notabug.org/TenPlus1/bonemeal
-[submodule "stairsplus"]
-	path = stairsplus
-	url = https://github.com/CasimirKaPazi/stairsplus
