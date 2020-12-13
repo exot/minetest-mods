@@ -27,6 +27,15 @@ sudo apt install                    \
      minetest-mod-worldedit
 ```
 
+Afterwards, use git to check out all submodules like so:
+
+```sh
+git submodule update --init
+```
+
+Then start minetest, edit `world.mt` to enable all wanted modules, and restart
+again.  Enjoy! ☺
+
 For licenses and copyrights see the corresponding mods.  All that remains is
 licensed under an MIT License.
 
