@@ -6,9 +6,26 @@ is either included as a git-submodule (preferred) or, if that is not possible,
 directly contained in this repository.
 
 Some standard extension mods are not included here, because they are shipped
-with Debian.  Examples are `basic-materials`, `homedecor`, `infinite-chest`,
-`intllib`, `meseconds`, `moreblocks`, `moreores`, `torches`,
-`unified-inventory`, `unifieddyes`, and `worldedit`, among others.
+with Debian.  Run the following command to satisfy these dependencies:
+
+```sh
+sudo apt install                    \
+     minetest-mod-basic-materials   \
+     minetest-mod-character-creator \
+     minetest-mod-craftguide        \
+     minetest-mod-currency          \
+     minetest-mod-homedecor         \
+     minetest-mod-infinite-chest    \
+     minetest-mod-intllib           \
+     minetest-mod-mesecons          \
+     minetest-mod-mobs-redo         \
+     minetest-mod-moreblocks        \
+     minetest-mod-moreores          \
+     minetest-mod-torches           \
+     minetest-mod-unified-inventory \
+     minetest-mod-unifieddyes       \
+     minetest-mod-worldedit
+```
 
 For licenses and copyrights see the corresponding mods.  All that remains is
 licensed under an MIT License.
