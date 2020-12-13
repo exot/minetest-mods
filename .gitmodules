@@ -6,10 +6,10 @@
 	url = https://bitbucket.org/Infinatum/scaffolding.git
 [submodule "plantlife_modpack"]
 	path = plantlife_modpack
-	url = https://github.com/minetest-mods/plantlife_modpack
+	url = https://gitlab.com/VanessaE/plantlife_modpack.git
 [submodule "moretrees"]
 	path = moretrees
-	url = https://github.com/minetest-mods/moretrees
+	url = https://gitlab.com/VanessaE/moretrees.git
 [submodule "food"]
 	path = food
 	url = https://github.com/rubenwardy/food.git
@@ -18,7 +18,7 @@
 	url = https://notabug.org/TenPlus1/Farming
 [submodule "biome_lib"]
 	path = biome_lib
-	url = https://github.com/minetest-mods/biome_lib
+	url = https://gitlab.com/VanessaE/biome_lib.git
 [submodule "bakedclay"]
 	path = bakedclay
 	url = https://notabug.org/TenPlus1/bakedclay
