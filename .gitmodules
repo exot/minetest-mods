@@ -40,3 +40,6 @@
 [submodule "mobs_redo"]
 	path = mobs_redo
 	url = https://notabug.org/tenplus1/mobs_redo
+[submodule "minetest-tweaks"]
+	path = minetest-tweaks
+	url = https://github.com/exot/minetest-tweaks
