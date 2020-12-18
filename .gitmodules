@@ -58,3 +58,6 @@
 [submodule "moreblocks"]
 	path = moreblocks
 	url = https://github.com/minetest-mods/moreblocks
+[submodule "hook"]
+	path = hook
+	url = https://github.com/AiTechEye/hook
