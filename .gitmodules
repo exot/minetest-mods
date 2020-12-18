@@ -43,3 +43,6 @@
 [submodule "minetest-tweaks"]
 	path = tweaks
 	url = https://github.com/exot/minetest-tweaks
+[submodule "moreores"]
+	path = moreores
+	url = https://github.com/minetest-mods/moreores

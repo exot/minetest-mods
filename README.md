@@ -22,7 +22,6 @@ sudo apt install                    \
      minetest-mod-intllib           \
      minetest-mod-mesecons          \
      minetest-mod-moreblocks        \
-     minetest-mod-moreores          \
      minetest-mod-torches           \
      minetest-mod-unified-inventory \
      minetest-mod-unifieddyes       \
