@@ -19,7 +19,6 @@ sudo apt install                    \
      minetest-mod-infinite-chest    \
      minetest-mod-intllib           \
      minetest-mod-mesecons          \
-     minetest-mod-moreblocks        \
      minetest-mod-torches           \
      minetest-mod-unified-inventory \
      minetest-mod-worldedit

@@ -55,3 +55,6 @@
 [submodule "unifieddyes"]
 	path = unifieddyes
 	url = https://gitlab.com/VanessaE/unifieddyes
+[submodule "moreblocks"]
+	path = moreblocks
+	url = https://github.com/minetest-mods/moreblocks
