@@ -46,3 +46,9 @@
 [submodule "moreores"]
 	path = moreores
 	url = https://github.com/minetest-mods/moreores
+[submodule "basic_materials"]
+	path = basic_materials
+	url = https://gitlab.com/VanessaE/basic_materials
+[submodule "homedecor_modpack"]
+	path = homedecor_modpack
+	url = https://gitlab.com/VanessaE/homedecor_modpack

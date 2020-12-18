@@ -13,11 +13,9 @@ with Debian.  Run the following command to satisfy these dependencies:
 
 ```sh
 sudo apt install                    \
-     minetest-mod-basic-materials   \
      minetest-mod-character-creator \
      minetest-mod-craftguide        \
      minetest-mod-currency          \
-     minetest-mod-homedecor         \
      minetest-mod-infinite-chest    \
      minetest-mod-intllib           \
      minetest-mod-mesecons          \
