@@ -22,7 +22,6 @@ sudo apt install                    \
      minetest-mod-moreblocks        \
      minetest-mod-torches           \
      minetest-mod-unified-inventory \
-     minetest-mod-unifieddyes       \
      minetest-mod-worldedit
 ```
 

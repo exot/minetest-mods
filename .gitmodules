@@ -52,3 +52,6 @@
 [submodule "homedecor_modpack"]
 	path = homedecor_modpack
 	url = https://gitlab.com/VanessaE/homedecor_modpack
+[submodule "unifieddyes"]
+	path = unifieddyes
+	url = https://gitlab.com/VanessaE/unifieddyes
