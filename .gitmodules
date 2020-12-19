@@ -61,3 +61,9 @@
 [submodule "hook"]
 	path = hook
 	url = https://github.com/AiTechEye/hook
+[submodule "signs_lib"]
+	path = signs_lib
+	url = https://gitlab.com/VanessaE/signs_lib
+[submodule "street_signs"]
+	path = street_signs
+	url = https://gitlab.com/VanessaE/street_signs
