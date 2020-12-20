@@ -1,2 +1,3 @@
 # ignore quilt cache directory
 /.pc/
+/README.html
