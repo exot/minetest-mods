@@ -67,3 +67,6 @@
 [submodule "street_signs"]
 	path = street_signs
 	url = https://gitlab.com/VanessaE/street_signs
+[submodule "worldedit"]
+	path = worldedit
+	url = https://github.com/Uberi/Minetest-WorldEdit

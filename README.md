@@ -21,8 +21,7 @@ sudo apt install                    \
      minetest-mod-intllib           \
      minetest-mod-mesecons          \
      minetest-mod-torches           \
-     minetest-mod-unified-inventory \
-     minetest-mod-worldedit
+     minetest-mod-unified-inventory
 ```
 
 Afterwards, use git to check out all submodules like so:
