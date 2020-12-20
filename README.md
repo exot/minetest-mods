@@ -48,26 +48,17 @@ the following configuration
   git config receive.denyCurrentBranch updateInstead
   ~~~
 
-- Remove `quilt` patches on `pre-receive`, i.e., before receiving updates:
+- When updating the worktree after push, first remove all patches, then update,
+  then update all submodules, and then reapply all patches:
 
   ~~~sh
-  cat <<SCRIPT > .git/hooks/pre-receive
+  cat <<SCRIPT > .git/hooks/push-to-checkout
   #!/bin/sh
 
   quilt pop -a
-  SCRIPT
-  chmod +x .git/hooks/pre-receive
-  ~~~
-
-- After pushing, update all submodules, apply patches, and fix permissions:
-
-  ~~~sh
-  cat <<SCRIPT > .git/hooks/post-update
-  #!/bin/sh
-  
+  git read-tree -u -m HEAD "$1"
   git submodule update --init
-  quilt push -a 
+  quilt push -a
   chmod -R a+rX .
-  SCRIPT
-  chmod +x .git/hooks/post-update
+  chmod +x .git/hooks/push-to-checkout
   ~~~
