@@ -73,3 +73,6 @@
 [submodule "areas"]
 	path = areas
 	url = https://github.com/minetest-mods/areas/
+[submodule "pipeworks"]
+	path = pipeworks
+	url = https://gitlab.com/VanessaE/pipeworks
