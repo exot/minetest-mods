@@ -60,5 +60,6 @@ the following configuration
   git submodule update --init
   quilt push -a
   chmod -R a+rX .
+  SCRIPT
   chmod +x .git/hooks/push-to-checkout
   ~~~
