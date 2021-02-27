@@ -76,3 +76,6 @@
 [submodule "pipeworks"]
 	path = pipeworks
 	url = https://gitlab.com/VanessaE/pipeworks
+[submodule "awards"]
+	path = awards
+	url = https://gitlab.com/rubenwardy/awards/
