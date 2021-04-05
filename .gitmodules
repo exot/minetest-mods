@@ -85,3 +85,9 @@
 [submodule "abritorch"]
 	path = abritorch
 	url = https://github.com/Ezhh/abritorch
+[submodule "minetest_biofuel"]
+	path = minetest_biofuel
+	url = https://github.com/APercy/minetest_biofuel
+[submodule "helicopter"]
+	path = helicopter
+	url = https://github.com/APercy/helicopter
