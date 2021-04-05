@@ -82,3 +82,6 @@
 [submodule "mydoors"]
 	path = mydoors
 	url = https://github.com/minetest-mods/mydoors
+[submodule "abritorch"]
+	path = abritorch
+	url = https://github.com/Ezhh/abritorch
