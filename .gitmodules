@@ -79,3 +79,6 @@
 [submodule "awards"]
 	path = awards
 	url = https://gitlab.com/rubenwardy/awards/
+[submodule "mydoors"]
+	path = mydoors
+	url = https://github.com/minetest-mods/mydoors
