@@ -91,3 +91,6 @@
 [submodule "helicopter"]
 	path = helicopter
 	url = https://github.com/APercy/helicopter
+[submodule "Minetest-WorldEditAdditions"]
+	path = Minetest-WorldEditAdditions
+	url = https://github.com/sbrl/Minetest-WorldEditAdditions
