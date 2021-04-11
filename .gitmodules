@@ -94,3 +94,6 @@
 [submodule "Minetest-WorldEditAdditions"]
 	path = Minetest-WorldEditAdditions
 	url = https://github.com/sbrl/Minetest-WorldEditAdditions
+[submodule "orbs_of_time"]
+	path = orbs_of_time
+	url = https://github.com/minetest-mods/orbs_of_time
