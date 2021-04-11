@@ -97,3 +97,6 @@
 [submodule "orbs_of_time"]
 	path = orbs_of_time
 	url = https://github.com/minetest-mods/orbs_of_time
+[submodule "anvil"]
+	path = anvil
+	url = https://github.com/minetest-mods/anvil
