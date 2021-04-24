@@ -100,3 +100,6 @@
 [submodule "anvil"]
 	path = anvil
 	url = https://github.com/minetest-mods/anvil
+[submodule "mesecons"]
+	path = mesecons
+	url = https://github.com/minetest-mods/mesecons
