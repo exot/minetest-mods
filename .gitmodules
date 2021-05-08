@@ -103,3 +103,9 @@
 [submodule "mesecons"]
 	path = mesecons
 	url = https://github.com/minetest-mods/mesecons
+[submodule "item-tweaks"]
+	path = item-tweaks
+	url = https://github.com/exot/item_tweaks
+[submodule "item-tweaks-2"]
+	path = item-tweaks
+	url = https://github.com/exot/item_tweaks
