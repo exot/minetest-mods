@@ -109,3 +109,6 @@
 [submodule "item-tweaks-2"]
 	path = item-tweaks
 	url = https://github.com/exot/item_tweaks
+[submodule "cloudlands"]
+	path = cloudlands
+	url = https://github.com/Treer/cloudlands

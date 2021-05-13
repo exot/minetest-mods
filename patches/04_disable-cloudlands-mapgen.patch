@@ -1,0 +1,28 @@
+We do not want the islands, only the giant tree and the nodes required for it.
+Thus we disable cloudlands mapgen registration.
+
+--- a/cloudlands/cloudlands.lua
++++ b/cloudlands/cloudlands.lua
+@@ -2953,12 +2953,12 @@ local function on_generated(minp, maxp,
+ end
+ 
+ 
+-minetest.register_on_generated(on_generated)
+-
+-minetest.register_on_mapgen_init(
+-  -- invoked after mods initially run but before the environment is created, while the mapgen is being initialized
+-  function(mgparams)
+-    worldSeed = mgparams.seed
+-    --if DEBUG then minetest.set_mapgen_params({mgname = "singlenode"--[[, flags = "nolight"]]}) end
+-  end
+-)
+\ No newline at end of file
++-- minetest.register_on_generated(on_generated)
++-- 
++-- minetest.register_on_mapgen_init(
++--   -- invoked after mods initially run but before the environment is created, while the mapgen is being initialized
++--   function(mgparams)
++--     worldSeed = mgparams.seed
++--     --if DEBUG then minetest.set_mapgen_params({mgname = "singlenode"--[[, flags = "nolight"]]}) end
++--   end
++-- )
