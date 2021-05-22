@@ -112,3 +112,9 @@
 [submodule "cloudlands"]
 	path = cloudlands
 	url = https://github.com/Treer/cloudlands
+[submodule "mobf_trader"]
+	path = mobf_trader
+	url = https://github.com/Sokomine/mobf_trader
+[submodule "bike"]
+	path = bike
+	url = https://gitlab.com/h2mm/bike
