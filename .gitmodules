@@ -118,3 +118,6 @@
 [submodule "bike"]
 	path = bike
 	url = https://gitlab.com/h2mm/bike
+[submodule "towercrane"]
+	path = towercrane
+	url = https://github.com/minetest-mods/towercrane
