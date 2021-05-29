@@ -124,3 +124,9 @@
 [submodule "headanim"]
 	path = headanim
 	url = https://github.com/LoneWolfHT/headanim/
+[submodule "mobkit"]
+	path = mobkit
+	url = https://github.com/TheTermos/mobkit
+[submodule "petz"]
+	path = petz
+	url = https://github.com/runsy/petz
