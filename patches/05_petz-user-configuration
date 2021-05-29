@@ -1,7 +1,7 @@
 --- /dev/null
 +++ b/petz/petz/user.conf
 @@ -0,0 +1,23 @@
-+petz_list = kitty,puppy,ducky,lamb,calf,panda,pony,parrot,chicken,piggy,elephant,elephant_female,pigeon,moth,camel,clownfish,bat,silkworm,chimp,hamster,dolphin,tropicalfish,beaver,turtle,frog,toucan,bee,queen_bee,foxy,penguin,butterfly,rat,goat,squirrel,ant,queen_ant,rooster,hen,bunny
++petz_list = kitty,puppy,ducky,lamb,calf,panda,pony,parrot,chicken,piggy,elephant,elephant_female,pigeon,moth,camel,clownfish,bat,silkworm,chimp,hamster,dolphin,tropicalfish,beaver,turtle,frog,toucan,bee,queen_bee,foxy,penguin,butterfly,rat,goat,squirrel,ant,queen_ant,rooster,hen,bunny,wolf
 +
 +##Tamagochi Mode  (Take care of your pet: fed it...)
 +tamagochi_mode = false
