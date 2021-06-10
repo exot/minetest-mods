@@ -130,3 +130,6 @@
 [submodule "petz"]
 	path = petz
 	url = https://github.com/runsy/petz
+[submodule "3d_armor"]
+	path = 3d_armor
+	url = https://github.com/minetest-mods/3d_armor
