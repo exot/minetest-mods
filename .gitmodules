@@ -48,13 +48,13 @@
 	url = https://github.com/minetest-mods/moreores
 [submodule "basic_materials"]
 	path = basic_materials
-	url = https://gitlab.com/VanessaE/basic_materials
+	url = https://gitlab.com/VanessaE/basic_materials.git
 [submodule "homedecor_modpack"]
 	path = homedecor_modpack
-	url = https://gitlab.com/VanessaE/homedecor_modpack
+	url = https://gitlab.com/VanessaE/homedecor_modpack.git
 [submodule "unifieddyes"]
 	path = unifieddyes
-	url = https://gitlab.com/VanessaE/unifieddyes
+	url = https://gitlab.com/VanessaE/unifieddyes.git
 [submodule "moreblocks"]
 	path = moreblocks
 	url = https://github.com/minetest-mods/moreblocks
@@ -63,10 +63,10 @@
 	url = https://github.com/AiTechEye/hook
 [submodule "signs_lib"]
 	path = signs_lib
-	url = https://gitlab.com/VanessaE/signs_lib
+	url = https://gitlab.com/VanessaE/signs_lib.git
 [submodule "street_signs"]
 	path = street_signs
-	url = https://gitlab.com/VanessaE/street_signs
+	url = https://gitlab.com/VanessaE/street_signs.git
 [submodule "worldedit"]
 	path = worldedit
 	url = https://github.com/Uberi/Minetest-WorldEdit
@@ -75,10 +75,10 @@
 	url = https://github.com/minetest-mods/areas/
 [submodule "pipeworks"]
 	path = pipeworks
-	url = https://gitlab.com/VanessaE/pipeworks
+	url = https://gitlab.com/VanessaE/pipeworks.git
 [submodule "awards"]
 	path = awards
-	url = https://gitlab.com/rubenwardy/awards/
+	url = https://gitlab.com/rubenwardy/awards.git/
 [submodule "mydoors"]
 	path = mydoors
 	url = https://github.com/minetest-mods/mydoors
@@ -117,7 +117,7 @@
 	url = https://github.com/Sokomine/mobf_trader
 [submodule "bike"]
 	path = bike
-	url = https://gitlab.com/h2mm/bike
+	url = https://gitlab.com/h2mm/bike.git
 [submodule "towercrane"]
 	path = towercrane
 	url = https://github.com/minetest-mods/towercrane
