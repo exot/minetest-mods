@@ -19,7 +19,6 @@ sudo apt install                    \
      minetest-mod-currency          \
      minetest-mod-infinite-chest    \
      minetest-mod-intllib           \
-     minetest-mod-torches           \
      minetest-mod-unified-inventory
 ```
 
