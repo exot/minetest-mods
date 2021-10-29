@@ -151,3 +151,6 @@
 [submodule "character-creator"]
 	path = character-creator
 	url = https://github.com/minetest-mods/character_creator
+[submodule "wielded-light"]
+	path = wielded-light
+	url = https://github.com/minetest-mods/wielded_light
