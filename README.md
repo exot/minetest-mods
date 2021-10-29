@@ -9,26 +9,13 @@ patches in the `patches` directory.  These can be applied with `quilt push -a`
 Before updating mods, unapply the patches with `quilt pop -a`.  See also section
 on [setting up git](#git-setup) below.
 
-Some standard extension mods are not included here, because they are shipped
-with Debian.  Run the following command to satisfy these dependencies:
-
-```sh
-sudo apt install                    \
-     minetest-mod-character-creator \
-     minetest-mod-craftguide        \
-     minetest-mod-currency          \
-     minetest-mod-infinite-chest    \
-     minetest-mod-intllib           \
-     minetest-mod-unified-inventory
-```
-
-Afterwards, use git to check out all submodules like so:
+After cloning, use git to check out all submodules like so:
 
 ```sh
 git submodule update --init
 ```
 
-Then start minetest, edit `world.mt` to enable all wanted modules, and restart
+Then start minetest, edit `world.mt` to enable all desired modules, and restart
 again.  Enjoy! ☺
 
 For licenses and copyrights see the corresponding mods.  All that remains is

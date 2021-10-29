@@ -133,3 +133,21 @@
 [submodule "3d_armor"]
 	path = 3d_armor
 	url = https://github.com/minetest-mods/3d_armor
+[submodule "craftguide"]
+	path = craftguide
+	url = https://github.com/minetest-mods/craftguide
+[submodule "currency"]
+	path = currency
+	url = https://gitlab.com/VanessaE/currency
+[submodule "infinite-chest"]
+	path = infinite-chest
+	url = https://github.com/cornernote/minetest-infinite_chest
+[submodule "intllib"]
+	path = intllib
+	url = https://github.com/minetest-mods/intllib
+[submodule "unified-inventory"]
+	path = unified-inventory
+	url = https://github.com/minetest-mods/unified_inventory
+[submodule "character-creator"]
+	path = character-creator
+	url = https://github.com/minetest-mods/character_creator
