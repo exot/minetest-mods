@@ -154,3 +154,6 @@
 [submodule "wielded-light"]
 	path = wielded-light
 	url = https://github.com/minetest-mods/wielded_light
+[submodule "hidroplane"]
+	path = hidroplane
+	url = https://github.com/APercy/hidroplane
