@@ -157,3 +157,6 @@
 [submodule "hidroplane"]
 	path = hidroplane
 	url = https://github.com/APercy/hidroplane
+[submodule "water_life"]
+	path = water_life
+	url = https://github.com/berengma/water_life
