@@ -160,3 +160,6 @@
 [submodule "water_life"]
 	path = water_life
 	url = https://github.com/berengma/water_life
+[submodule "nautilus"]
+	path = nautilus
+	url = https://github.com/APercy/nautilus
