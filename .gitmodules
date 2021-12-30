@@ -163,3 +163,9 @@
 [submodule "nautilus"]
 	path = nautilus
 	url = https://github.com/APercy/nautilus
+[submodule "advtrains"]
+	path = advtrains
+	url = https://git.bananach.space/advtrains.git
+[submodule "basic_trains"]
+	path = basic_trains
+	url = https://git.bananach.space/basic_trains.git/
