@@ -169,3 +169,9 @@
 [submodule "basic_trains"]
 	path = basic_trains
 	url = https://git.bananach.space/basic_trains.git/
+[submodule "moretrains"]
+	path = moretrains
+	url = https://git.bananach.space/moretrains.git/
+[submodule "dlxtrains_modpack"]
+	path = dlxtrains_modpack
+	url = https://github.com/Marnack/dlxtrains_modpack
