@@ -175,3 +175,6 @@
 [submodule "dlxtrains_modpack"]
 	path = dlxtrains_modpack
 	url = https://github.com/Marnack/dlxtrains_modpack
+[submodule "advtrains_construction_train"]
+	path = advtrains_construction_train
+	url = https://git.bananach.space/advtrains_construction_train.git/
