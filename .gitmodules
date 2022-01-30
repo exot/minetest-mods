@@ -6,10 +6,10 @@
 	url = https://bitbucket.org/Infinatum/scaffolding.git
 [submodule "plantlife_modpack"]
 	path = plantlife_modpack
-	url = https://gitlab.com/VanessaE/plantlife_modpack.git
+	url = https://github.com/mt-mods/plantlife_modpack
 [submodule "moretrees"]
 	path = moretrees
-	url = https://gitlab.com/VanessaE/moretrees.git
+	url = https://github.com/mt-mods/moretrees
 [submodule "food"]
 	path = food
 	url = https://github.com/rubenwardy/food.git
@@ -18,7 +18,7 @@
 	url = https://notabug.org/TenPlus1/Farming
 [submodule "biome_lib"]
 	path = biome_lib
-	url = https://gitlab.com/VanessaE/biome_lib.git
+	url = https://github.com/mt-mods/biome_lib
 [submodule "bakedclay"]
 	path = bakedclay
 	url = https://notabug.org/TenPlus1/bakedclay
@@ -48,13 +48,13 @@
 	url = https://github.com/minetest-mods/moreores
 [submodule "basic_materials"]
 	path = basic_materials
-	url = https://gitlab.com/VanessaE/basic_materials.git
+	url = https://github.com/mt-mods/basic_materials
 [submodule "homedecor_modpack"]
 	path = homedecor_modpack
-	url = https://gitlab.com/VanessaE/homedecor_modpack.git
+	url = https://github.com/mt-mods/homedecor_modpack
 [submodule "unifieddyes"]
 	path = unifieddyes
-	url = https://gitlab.com/VanessaE/unifieddyes.git
+	url = https://github.com/mt-mods/unifieddyes
 [submodule "moreblocks"]
 	path = moreblocks
 	url = https://github.com/minetest-mods/moreblocks
@@ -63,10 +63,10 @@
 	url = https://github.com/AiTechEye/hook
 [submodule "signs_lib"]
 	path = signs_lib
-	url = https://gitlab.com/VanessaE/signs_lib.git
+	url = https://github.com/mt-mods/signs_lib
 [submodule "street_signs"]
 	path = street_signs
-	url = https://gitlab.com/VanessaE/street_signs.git
+	url = https://github.com/mt-mods/street_signs
 [submodule "worldedit"]
 	path = worldedit
 	url = https://github.com/Uberi/Minetest-WorldEdit
@@ -75,7 +75,7 @@
 	url = https://github.com/minetest-mods/areas/
 [submodule "pipeworks"]
 	path = pipeworks
-	url = https://gitlab.com/VanessaE/pipeworks.git
+	url = https://github.com/mt-mods/pipeworks
 [submodule "awards"]
 	path = awards
 	url = https://gitlab.com/rubenwardy/awards.git/
@@ -138,7 +138,7 @@
 	url = https://github.com/minetest-mods/craftguide
 [submodule "currency"]
 	path = currency
-	url = https://gitlab.com/VanessaE/currency
+	url = https://github.com/mt-mods/currency
 [submodule "infinite-chest"]
 	path = infinite-chest
 	url = https://github.com/cornernote/minetest-infinite_chest
