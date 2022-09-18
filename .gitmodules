@@ -178,3 +178,6 @@
 [submodule "advtrains_construction_train"]
 	path = advtrains_construction_train
 	url = https://git.bananach.space/advtrains_construction_train.git/
+[submodule "airutils"]
+	path = airutils
+	url = https://github.com/APercy/airutils

@@ -1,80 +1,81 @@
 --- a/water_life/init.lua
 +++ b/water_life/init.lua
-@@ -70,7 +70,7 @@ if not water_life.apionly then
- 	dofile(path.."/animals/gecko.lua")											-- load tokays
- 	dofile(path.."/animals/beaver.lua")										-- load beavers
+@@ -82,7 +82,7 @@ if not water_life.apionly then
+ 	dofile(path.."/animals/gecko.lua")
+ 	dofile(path.."/animals/beaver.lua")
  	if not water_life.dangerous then
--		dofile(path.."/animals/snake.lua")											-- load snakes
-+--		dofile(path.."/animals/snake.lua")											-- load snakes
- 		dofile(path.."/animals/piranha.lua")										-- load piranha
- 		dofile(path.."/animals/shark.lua")											-- load sharks
- 		dofile(path.."/animals/crocodile.lua")										-- load crocodile
+-		dofile(path.."/animals/snake.lua")
++		-- dofile(path.."/animals/snake.lua")
+ 		dofile(path.."/animals/piranha.lua")
+ 		dofile(path.."/animals/shark.lua")
+ 		dofile(path.."/animals/crocodile.lua")
 --- a/water_life/spawn.lua
 +++ b/water_life/spawn.lua
-@@ -126,23 +126,23 @@ local function spawnstep(dtime)
+@@ -115,21 +115,21 @@ local function spawnstep(dtime)
+ 				
+ 				if landpos then
  					local landdata =  water_life_get_biome_data(landpos)
- 					
- 					
 -					if not water_life.dangerous then
--						-- the snake
--						 mobname = 'water_life:snake'
+-						mobname = 'water_life:snake'
 -						local faktor = (100 - getcount(animal[mobname]) * 50) 
 -						if random(100) < faktor then
--							local fits = minetest.is_protected(landpos,mobname)
--							--minetest.chat_send_all(dump(fits))
-+					-- if not water_life.dangerous then
-+					-- 	-- the snake
-+					-- 	 mobname = 'water_life:snake'
-+					-- 	local faktor = (100 - getcount(animal[mobname]) * 50) 
-+					-- 	if random(100) < faktor then
-+					-- 		local fits = minetest.is_protected(landpos,mobname)
-+					-- 		--minetest.chat_send_all(dump(fits))
- 							
--							if (string.match(landdata.name,"desert") or string.match(landdata.name,"savanna"))
--							and not fits and landdata.temp > 15 then
-+					-- 		if (string.match(landdata.name,"desert") or string.match(landdata.name,"savanna"))
-+					-- 		and not fits and landdata.temp > 15 then
- 								
--								local obj=minetest.add_entity(landpos,mobname)			-- ok spawn it already damnit
+-							local fits = minetest.is_protected(
+-								landpos,mobname)
+-							if (string.match(landdata.name,"desert") or 
+-								string.match(landdata.name,"savanna"))
+-								and not fits and 
+-								landdata.temp > 15 then
+-								local obj=minetest.add_entity(
+-									landpos,mobname)
 -							end
 -						end
-+					-- 			local obj=minetest.add_entity(landpos,mobname)			-- ok spawn it already damnit
+-					end
++					-- if not water_life.dangerous then
++					-- 	mobname = 'water_life:snake'
++					-- 	local faktor = (100 - getcount(animal[mobname]) * 50) 
++					-- 	if random(100) < faktor then
++					-- 		local fits = minetest.is_protected(
++					-- 			landpos,mobname)
++					-- 		if (string.match(landdata.name,"desert") or 
++					-- 			string.match(landdata.name,"savanna"))
++					-- 			and not fits and 
++					-- 			landdata.temp > 15 then
++					-- 			local obj=minetest.add_entity(
++					-- 				landpos,mobname)
 +					-- 		end
 +					-- 	end
- 						
- 						
--					end
 +					-- end
  					
- 					
- 					--the beaver
-@@ -249,18 +249,19 @@ local function spawnstep(dtime)
- 						--minetest.chat_send_all(dump(minetest.pos_to_string(surface)).." "..dump(minetest.pos_to_string(ground)))   
+ 					mobname = 'water_life:beaver'
+ 					local faktor = (100 - getcount(animal[mobname]) * 25) 
+@@ -210,18 +210,18 @@ local function spawnstep(dtime)
+ 							end
+ 						end
  						
- 						
--						 mobname = 'water_life:snake'
+-						mobname = 'water_life:snake'
 -						local faktor = (100 - getcount(animal[mobname]) * 50) +25
 -						if random(100) < faktor then
 -							local fits = false
--							if string.match(bdata.name,"desert") or string.match(bdata.name,"savanna") then fits = true end
-+						--  mobname = 'water_life:snake'
+-							if string.match(bdata.name,"desert") or 
+-								string.match(bdata.name,"savanna") then 
+-								fits = true 
+-							end
+-							if depth < 3 and fits then
+-								local obj=minetest.add_entity(surface,mobname)
+-							end
+-						end
++						-- mobname = 'water_life:snake'
 +						-- local faktor = (100 - getcount(animal[mobname]) * 50) +25
 +						-- if random(100) < faktor then
 +						-- 	local fits = false
-+						-- 	if string.match(bdata.name,"desert") or string.match(bdata.name,"savanna") then fits = true end
-+							
-+						-- 	if depth < 3 and fits then      --snake max water depth
-+						-- 		local obj=minetest.add_entity(surface,mobname)			-- ok spawn it already damnit
++						-- 	if string.match(bdata.name,"desert") or 
++						-- 		string.match(bdata.name,"savanna") then 
++						-- 		fits = true 
 +						-- 	end
- 							
--							if depth < 3 and fits then      --snake max water depth
--								local obj=minetest.add_entity(surface,mobname)			-- ok spawn it already damnit
--							end
- 							
--							
--						end
++						-- 	if depth < 3 and fits then
++						-- 		local obj=minetest.add_entity(surface,mobname)
++						-- 	end
 +						-- end
-+
- 						--minetest.chat_send_all(dump(minetest.pos_to_string(surface)).." "..dump(minetest.pos_to_string(ground)))   
  							
- 						 mobname = 'water_life:shark'
+ 						mobname = 'water_life:shark'
+ 						if water_life.shark_spawn_rate >= random(1000) then
