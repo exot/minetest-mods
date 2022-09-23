@@ -12,7 +12,7 @@ on [setting up git](#git-setup) below.
 After cloning, use git to check out all submodules like so:
 
 ```sh
-git submodule update --init
+git submodule update --init --recursive
 ```
 
 Then start minetest, edit `world.mt` to enable all desired modules, and restart
