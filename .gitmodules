@@ -184,3 +184,9 @@
 [submodule "steampunk_blimp"]
 	path = steampunk_blimp
 	url = https://github.com/APercy/steampunk_blimp
+[submodule "ju52"]
+	path = ju52
+	url = https://github.com/APercy/ju52
+[submodule "demoiselle"]
+	path = demoiselle
+	url = https://github.com/APercy/demoiselle
