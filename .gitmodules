@@ -190,3 +190,15 @@
 [submodule "demoiselle"]
 	path = demoiselle
 	url = https://github.com/APercy/demoiselle
+[submodule "cheese"]
+	path = cheese
+	url = https://github.com/AnnalysaTheMinetester/cheese
+[submodule "supercub"]
+	path = supercub
+	url = https://github.com/APercy/supercub
+[submodule "pa28"]
+	path = pa28
+	url = https://github.com/APercy/pa28
+[submodule "trike"]
+	path = trike
+	url = https://github.com/APercy/trike
