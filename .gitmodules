@@ -202,3 +202,12 @@
 [submodule "trike"]
 	path = trike
 	url = https://github.com/APercy/trike
+[submodule "stamina"]
+	path = stamina
+	url = https://github.com/minetest-mods/stamina
+[submodule "automobiles_pck"]
+	path = automobiles_pck
+	url = https://github.com/APercy/automobiles_pck
+[submodule "lumberjack"]
+	path = lumberjack
+	url = https://github.com/joe7575/lumberjack
