@@ -106,9 +106,6 @@
 [submodule "item-tweaks"]
 	path = item-tweaks
 	url = https://github.com/exot/item_tweaks
-[submodule "item-tweaks-2"]
-	path = item-tweaks
-	url = https://github.com/exot/item_tweaks
 [submodule "cloudlands"]
 	path = cloudlands
 	url = https://github.com/Treer/cloudlands
@@ -211,3 +208,6 @@
 [submodule "lumberjack"]
 	path = lumberjack
 	url = https://github.com/joe7575/lumberjack
+[submodule "item_drop"]
+	path = item_drop
+	url = https://github.com/minetest-mods/item_drop
