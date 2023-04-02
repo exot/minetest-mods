@@ -1,6 +1,6 @@
 --- a/water_life/init.lua
 +++ b/water_life/init.lua
-@@ -101,7 +101,7 @@ end
+@@ -98,7 +98,7 @@ end
  if water_life.mobsredo then 
  	water_life.catchBA = "mobs:lasso"
  	water_life.catchNet = "mobs:net"
@@ -8,3 +8,4 @@
 +	--if water_life.petz then minetest.unregister_item("petz:lasso") end
  elseif water_life.petz then
  	water_life.catchBA = "petz:lasso"
+ else
