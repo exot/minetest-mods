@@ -211,3 +211,9 @@
 [submodule "item_drop"]
 	path = item_drop
 	url = https://github.com/minetest-mods/item_drop
+[submodule "fishing_boat"]
+	path = fishing_boat
+	url = https://github.com/APercy/fishing_boat
+[submodule "laptop"]
+	path = laptop
+	url = https://github.com/Gerold55/laptop
