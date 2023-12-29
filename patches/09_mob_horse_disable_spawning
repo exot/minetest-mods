@@ -1,0 +1,53 @@
+Disable mob_horse spawning
+
+These mobs are not desired anymore, but existing mobs should remain intact.  So
+we just disable spawning.
+
+--- a/mob_horse/init.lua
++++ b/mob_horse/init.lua
+@@ -247,26 +247,26 @@ mobs:register_mob("mob_horse:horse", {
+ })
+ 
+ 
+--- check for custom spawn.lua
+-local input = io.open(MP .. "spawn.lua", "r")
++-- -- check for custom spawn.lua
++-- local input = io.open(MP .. "spawn.lua", "r")
+ 
+-if input then
+-	input:close()
+-	input = nil
+-	dofile(MP .. "spawn.lua")
+-else
+-
+-	mobs:spawn({
+-		name = "mob_horse:horse",
+-		nodes = {"default:dirt_with_grass", "ethereal:dry_dirt"},
+-		min_light = 14,
+-		interval = 60,
+-		chance = 16000,
+-		min_height = 10,
+-		max_height = 31000,
+-		day_toggle = true
+-	})
+-end
++-- if input then
++-- 	input:close()
++-- 	input = nil
++-- 	dofile(MP .. "spawn.lua")
++-- else
++
++-- 	mobs:spawn({
++-- 		name = "mob_horse:horse",
++-- 		nodes = {"default:dirt_with_grass", "ethereal:dry_dirt"},
++-- 		min_light = 14,
++-- 		interval = 60,
++-- 		chance = 16000,
++-- 		min_height = 10,
++-- 		max_height = 31000,
++-- 		day_toggle = true
++-- 	})
++-- end
+ 
+ 
+ mobs:register_egg("mob_horse:horse", S("Horse"), "wool_brown.png", 1)
