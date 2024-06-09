@@ -3,7 +3,7 @@ Thus we disable cloudlands mapgen registration.
 
 --- a/cloudlands/cloudlands.lua
 +++ b/cloudlands/cloudlands.lua
-@@ -2953,12 +2953,12 @@ local function on_generated(minp, maxp,
+@@ -3025,12 +3025,12 @@ local function on_generated(minp, maxp,
  end
  
  

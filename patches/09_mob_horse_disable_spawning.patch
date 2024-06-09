@@ -5,7 +5,7 @@ we just disable spawning.
 
 --- a/mob_horse/init.lua
 +++ b/mob_horse/init.lua
-@@ -247,26 +247,26 @@ mobs:register_mob("mob_horse:horse", {
+@@ -226,26 +226,26 @@ mobs:register_mob("mob_horse:horse", {
  })
  
  

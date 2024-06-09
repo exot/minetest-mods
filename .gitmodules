@@ -15,13 +15,13 @@
 	url = https://github.com/rubenwardy/food.git
 [submodule "farming"]
 	path = farming
-	url = https://notabug.org/TenPlus1/Farming
+	url = https://codeberg.org/tenplus1/farming.git
 [submodule "biome_lib"]
 	path = biome_lib
 	url = https://github.com/mt-mods/biome_lib
 [submodule "bakedclay"]
 	path = bakedclay
-	url = https://notabug.org/TenPlus1/bakedclay
+	url = https://codeberg.org/tenplus1/bakedclay.git
 [submodule "darkage"]
 	path = darkage
 	url = https://github.com/adrido/darkage/
@@ -30,16 +30,16 @@
 	url = https://github.com/dmonty2/minetest-u_skinsdb
 [submodule "mob_horse"]
 	path = mob_horse
-	url = https://notabug.org/TenPlus1/mob_horse
+	url = https://codeberg.org/tenplus1/mob_horse.git
 [submodule "bonemeal"]
 	path = bonemeal
-	url = https://notabug.org/TenPlus1/bonemeal
+	url = https://codeberg.org/tenplus1/bonemeal
 [submodule "columnia"]
 	path = columnia
 	url = https://github.com/Glunggi/columnia
 [submodule "mobs_redo"]
 	path = mobs_redo
-	url = https://notabug.org/tenplus1/mobs_redo
+	url = https://codeberg.org/tenplus1/mobs_redo
 [submodule "minetest-tweaks"]
 	path = tweaks
 	url = https://github.com/exot/minetest-tweaks
@@ -126,7 +126,7 @@
 	url = https://github.com/TheTermos/mobkit
 [submodule "petz"]
 	path = petz
-	url = https://github.com/runsy/petz
+	url = https://github.com/yl-whosit/petz
 [submodule "3d_armor"]
 	path = 3d_armor
 	url = https://github.com/minetest-mods/3d_armor
