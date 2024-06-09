@@ -220,3 +220,9 @@
 [submodule "climate"]
 	path = climate
 	url = https://github.com/t-affeldt/climate.git
+[submodule "ju52_hydro"]
+	path = ju52_hydro
+	url = https://github.com/APercy/ju52_hydro
+[submodule "b47_heli"]
+	path = b47_heli
+	url = https://github.com/APercy/b47_heli
