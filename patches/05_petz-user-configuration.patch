@@ -1,28 +1,23 @@
-Index: mods/petz/petz/user.conf
-===================================================================
 --- /dev/null
-+++ mods/petz/petz/user.conf
-@@ -0,0 +1,23 @@
++++ b/petz/petz/user.conf
+@@ -0,0 +1,19 @@
 +petz_list = kitty,puppy,ducky,lamb,lion,calf,panda,grizzly,pony,parrot,chicken,piggy,elephant,elephant_female,pigeon,moth,camel,clownfish,bat,silkworm,chimp,hamster,dolphin,tropicalfish,beaver,turtle,frog,toucan,bee,queen_bee,foxy,penguin,butterfly,rat,goat,squirrel,ant,queen_ant,rooster,hen,bunny,wolf,leopard,snow_leopard,warrior_ant
 +
-+##Tamagochi Mode  (Take care of your pet: fed it...)
 +tamagochi_mode = false
-+
-+##Spawn Monsters?
 +disable_monsters = true
++spawn_chance = 0.3
++max_mobs = 10
++max_per_species = 2
++no_spawn_in_protected = true
++lycanthropy = false
 +
-+##Disable here some mobs to not spawn
-+###Add the type name of the petz plus "_disable_spawn"
-+###Normal bees should not spam!!!
 +bee_disable_spawn = false
 +ant_disable_spawn = false
 +warrior_ant_disable_spawn = true
 +rooster_disable_spawn = true
 +chicken_disable_spawn = true
-+spawn_chance = 0.3
-+
-+#do not spawn in protected
-+no_spawn_in_protected = true
-+
-+#Lycanthropy stuff
-+lycanthropy = false
++wolf_disable_spawn = true
++leopard_disable_spawn = true
++snow_leopard_disable_spawn = true
++lion_disable_spawn = true
+\ No newline at end of file
