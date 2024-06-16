@@ -1,0 +1,20 @@
+--- a/mobf_trader/mob_basics.lua
++++ b/mobf_trader/mob_basics.lua
+@@ -845,7 +845,7 @@ mob_basics.update_texture = function( se
+ 	-- we are dealing with wieldview now
+ 
+ 	-- fallback in case we find no image for the trade good
+-	local wield_texture = "3d_armor_trans.png";
++	local wield_texture = "blank.png";
+ 
+ 	-- get the goods the trader has to offer
+ 	if( not( trader_goods )) then
+@@ -883,7 +883,7 @@ mob_basics.update_texture = function( se
+ 	-- actually update the textures
+ 	self.object:set_properties( { textures = { 
+ 		self[ prefix..'_texture'],
+-		"3d_armor_trans.png",
++		"blank.png",
+ 		wield_texture
+ 	}});
+ end
