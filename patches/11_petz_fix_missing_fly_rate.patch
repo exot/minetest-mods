@@ -1,0 +1,32 @@
+This should avoid error like these:
+
+    2024-06-20 11:55:47: ERROR[Main]: ServerError: AsyncErr: Lua: Runtime error from mod 'petz' in callback luaentity_Step(): ...t.Minetest/.minetest/mods/petz/petz/brains/br_flying.lua:213: bad 
+    argument #2 to 'random' (number expected, got nil)
+    2024-06-20 11:55:47: ERROR[Main]: stack traceback:
+    2024-06-20 11:55:47: ERROR[Main]:       [C]: in function 'random'
+    2024-06-20 11:55:47: ERROR[Main]:       ...t.Minetest/.minetest/mods/petz/petz/brains/br_flying.lua:213: in function 'logic'
+    2024-06-20 11:55:47: ERROR[Main]:       ...et.minetest.Minetest/.minetest/mods/petz/kitz/engine.lua:866: in function 'stepfunc'
+    2024-06-20 11:55:47: ERROR[Main]:       ...Minetest/.minetest/mods/petz/petz/petz/pigeon_mobkit.lua:89: in function <...Minetest/.minetest/mods/petz/petz/petz/pigeon_mobkit.lua:88>
+
+--- a/petz/petz/brains/bh_fly.lua
++++ b/petz/petz/brains/bh_fly.lua
+@@ -61,7 +61,7 @@ function petz.lq_dumbfly(self, speed_fac
+ 			--minetest.chat_send_player("singleplayer", tostring(height_from_ground))
+ 			local random_alight
+ 			if self.can_alight then
+-				random_alight = math.random(1, self.fly_rate)
++				random_alight = math.random(1, self.fly_rate or 60)
+ 				if random_alight <= 1 then
+ 					fly_status = "alight"
+ 				end
+--- a/petz/petz/brains/br_flying.lua
++++ b/petz/petz/brains/br_flying.lua
+@@ -210,7 +210,7 @@ function petz.flying_brain(self)
+ 		elseif kitz.is_queue_empty_high(self) and not(self.status) and self.plucked then
+ 			kitz.hq_roam(self, 0)
+ 		elseif self.status == "alight" then
+-			local fly_again = math.random(1, self.fly_rate)
++			local fly_again = math.random(1, self.fly_rate or 60)
+ 			if fly_again <= 1 then
+ 				kitz.clear_queue_low(self)
+ 				kitz.clear_queue_high(self)
