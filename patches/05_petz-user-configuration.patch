@@ -5,9 +5,9 @@
 +
 +tamagochi_mode = false
 +disable_monsters = true
-+spawn_chance = 0.05
-+max_mobs = 5
-+max_per_species = 2
++spawn_chance = 0.00
++max_mobs = 0
++max_per_species = 0
 +no_spawn_in_protected = true
 +lycanthropy = false
 +
