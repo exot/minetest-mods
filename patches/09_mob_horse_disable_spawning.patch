@@ -5,9 +5,9 @@ we just disable spawning.
 
 --- a/mob_horse/init.lua
 +++ b/mob_horse/init.lua
-@@ -226,26 +226,26 @@ mobs:register_mob("mob_horse:horse", {
+@@ -218,26 +218,26 @@ mobs:register_mob("mob_horse:horse", {
+ ]]
  })
- 
  
 --- check for custom spawn.lua
 -local input = io.open(MP .. "spawn.lua", "r")
@@ -19,7 +19,12 @@ we just disable spawning.
 -	input = nil
 -	dofile(MP .. "spawn.lua")
 -else
--
++-- if input then
++-- 	input:close()
++-- 	input = nil
++-- 	dofile(MP .. "spawn.lua")
++-- else
+ 
 -	mobs:spawn({
 -		name = "mob_horse:horse",
 -		nodes = {"default:dirt_with_grass", "ethereal:dry_dirt"},
@@ -31,12 +36,6 @@ we just disable spawning.
 -		day_toggle = true
 -	})
 -end
-+-- if input then
-+-- 	input:close()
-+-- 	input = nil
-+-- 	dofile(MP .. "spawn.lua")
-+-- else
-+
 +-- 	mobs:spawn({
 +-- 		name = "mob_horse:horse",
 +-- 		nodes = {"default:dirt_with_grass", "ethereal:dry_dirt"},
@@ -49,5 +48,5 @@ we just disable spawning.
 +-- 	})
 +-- end
  
+ -- spawn egg
  
- mobs:register_egg("mob_horse:horse", S("Horse"), "wool_brown.png", 1)
