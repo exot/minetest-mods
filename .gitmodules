@@ -238,3 +238,9 @@
 [submodule "player_monoids"]
 	path = player_monoids
 	url = https://github.com/minetest-mods/player_monoids
+[submodule "ww1_planes"]
+	path = ww1_planes
+	url = https://github.com/APercy/ww1_planes
+[submodule "savoia_s21"]
+	path = savoia_s21
+	url = https://github.com/APercy/savoia_s21
