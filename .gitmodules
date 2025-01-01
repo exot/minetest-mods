@@ -244,3 +244,6 @@
 [submodule "savoia_s21"]
 	path = savoia_s21
 	url = https://github.com/APercy/savoia_s21
+[submodule "ham_radio"]
+	path = ham_radio
+	url = https://github.com/technix/ham_radio
