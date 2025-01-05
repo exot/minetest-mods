@@ -247,3 +247,42 @@
 [submodule "ham_radio"]
 	path = ham_radio
 	url = https://github.com/technix/ham_radio
+[submodule "ropes"]
+	path = ropes
+	url = https://github.com/minetest-mods/ropes
+[submodule "cottages"]
+	path = cottages
+	url = https://github.com/Sokomine/cottages
+[submodule "castle_gates"]
+	path = castle_gates
+	url = https://github.com/minetest-mods/castle_gates
+[submodule "castle_lighting"]
+	path = castle_lighting
+	url = https://github.com/minetest-mods/castle_lighting
+[submodule "castle_masonry"]
+	path = castle_masonry
+	url = https://github.com/minetest-mods/castle_masonry
+[submodule "castle_shields"]
+	path = castle_shields
+	url = https://github.com/minetest-mods/castle_shields
+[submodule "castle_storage"]
+	path = castle_storage
+	url = https://github.com/minetest-mods/castle_storage
+[submodule "castle_tapestries"]
+	path = castle_tapestries
+	url = https://github.com/minetest-mods/castle_tapestries
+[submodule "castle_weapons"]
+	path = castle_weapons
+	url = https://github.com/minetest-mods/castle_weapons
+[submodule "castle_farming"]
+	path = castle_farming
+	url = https://github.com/minetest-mods/castle_farming
+[submodule "basic_signs"]
+	path = basic_signs
+	url = https://github.com/mt-mods/basic_signs
+[submodule "fakefire"]
+	path = fakefire
+	url = https://bitbucket.org/kingarthursteam/fakefire
+[submodule "gloopblocks"]
+	path = gloopblocks
+	url = https://github.com/mt-mods/gloopblocks
