@@ -280,9 +280,6 @@
 [submodule "basic_signs"]
 	path = basic_signs
 	url = https://github.com/mt-mods/basic_signs
-[submodule "fakefire"]
-	path = fakefire
-	url = https://bitbucket.org/kingarthursteam/fakefire
 [submodule "gloopblocks"]
 	path = gloopblocks
 	url = https://github.com/mt-mods/gloopblocks
