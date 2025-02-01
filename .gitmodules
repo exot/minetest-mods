@@ -283,3 +283,6 @@
 [submodule "gloopblocks"]
 	path = gloopblocks
 	url = https://github.com/mt-mods/gloopblocks
+[submodule "windmill"]
+	path = windmill
+	url = https://github.com/Sokomine/windmill
