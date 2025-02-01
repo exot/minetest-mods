@@ -286,3 +286,6 @@
 [submodule "windmill"]
 	path = windmill
 	url = https://github.com/Sokomine/windmill
+[submodule "minimap_radar"]
+	path = minimap_radar
+	url = https://github.com/OgelGames/minimap_radar
