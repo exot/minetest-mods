@@ -1,0 +1,23 @@
+--- a/mobs_redo/crafts.lua
++++ b/mobs_redo/crafts.lua
+@@ -156,13 +156,13 @@ minetest.register_tool("mobs:shears", {
+ 	groups = {flammable = 2}
+ })
+ 
+-minetest.register_craft({
+-	output = "mobs:shears",
+-	recipe = {
+-		{ "", items.steel_ingot, "" },
+-		{ "", items.stick, items.steel_ingot }
+-	}
+-})
++-- minetest.register_craft({
++-- 	output = "mobs:shears",
++-- 	recipe = {
++-- 		{ "", items.steel_ingot, "" },
++-- 		{ "", items.stick, items.steel_ingot }
++-- 	}
++-- })
+ 
+ -- protection rune
+ 
