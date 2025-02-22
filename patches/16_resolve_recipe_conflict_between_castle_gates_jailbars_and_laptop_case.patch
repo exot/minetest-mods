@@ -1,0 +1,11 @@
+--- a/castle_gates/doors.lua
++++ b/castle_gates/doors.lua
+@@ -60,7 +60,7 @@ if minetest.get_modpath("xpanes") then
+ 		groups = {cracky=1, pane=1, flow_through=1},
+ 		recipe = {
+ 			{"default:steel_ingot", "default:steel_ingot", "default:steel_ingot"},
+-			{"default:steel_ingot", "",                    "default:steel_ingot"},
++			{"default:steel_ingot", "default:iron_lump",   "default:steel_ingot"},
+ 			{"default:steel_ingot", "default:steel_ingot", "default:steel_ingot"}},
+ 	})
+ end
