@@ -1,0 +1,22 @@
+--- a/scaffolding/init.lua
++++ b/scaffolding/init.lua
+@@ -541,11 +541,11 @@ minetest.register_craft({
+ -- wrench --
+ ------------
+ 
+-minetest.register_craft({
+-	output = 'scaffolding:scaffolding_wrench',
+-	recipe = {
+-		{'', 'default:steel_ingot', ''},
+-		{'', 'default:steel_ingot', 'default:steel_ingot'},
+-		{'default:steel_ingot', '', ''},
+-	}
+-})
++-- minetest.register_craft({
++-- 	output = 'scaffolding:scaffolding_wrench',
++-- 	recipe = {
++-- 		{'', 'default:steel_ingot', ''},
++-- 		{'', 'default:steel_ingot', 'default:steel_ingot'},
++-- 		{'default:steel_ingot', '', ''},
++-- 	}
++-- })

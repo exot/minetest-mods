@@ -289,3 +289,6 @@
 [submodule "minimap_radar"]
 	path = minimap_radar
 	url = https://github.com/OgelGames/minimap_radar
+[submodule "wrench"]
+	path = wrench
+	url = https://github.com/mt-mods/wrench
