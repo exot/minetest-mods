@@ -1,6 +1,6 @@
 --- a/mobs_redo/crafts.lua
 +++ b/mobs_redo/crafts.lua
-@@ -156,13 +156,13 @@ minetest.register_tool("mobs:shears", {
+@@ -166,13 +166,13 @@ minetest.register_tool("mobs:shears", {
  	groups = {flammable = 2}
  })
  
